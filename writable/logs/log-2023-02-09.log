@@ -36,3 +36,120 @@ in APPPATH/Controllers/Posts.php on line 24.
  3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
  4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
  5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 11:56:34 --> Undefined index: firstname
+in APPPATH/Controllers/Comments.php on line 100.
+ 1 APPPATH/Controllers/Comments.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Comments->add_comment()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 12:45:50 --> Undefined variable: UsersModel
+in APPPATH/Controllers/Comments.php on line 46.
+ 1 APPPATH/Controllers/Comments.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Comments.php(18): App\Controllers\Comments->compile()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Comments->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 12:50:08 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Controllers/Comments.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Comments.php(45): count()
+ 3 APPPATH/Controllers/Comments.php(18): App\Controllers\Comments->compile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Comments->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 12:50:54 --> Call to undefined function App\Controllers\getLastQuery()
+in APPPATH/Controllers/Comments.php on line 35.
+ 1 APPPATH/Controllers/Comments.php(18): App\Controllers\Comments->compile()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Comments->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 12:51:26 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Controllers/Comments.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Comments.php(46): count()
+ 3 APPPATH/Controllers/Comments.php(18): App\Controllers\Comments->compile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Comments->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 12:52:09 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Controllers/Comments.php on line 46.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Comments.php(46): count()
+ 3 APPPATH/Controllers/Comments.php(18): App\Controllers\Comments->compile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Comments->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 12:53:45 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Controllers/Comments.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Comments.php(48): count()
+ 3 APPPATH/Controllers/Comments.php(18): App\Controllers\Comments->compile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Comments->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 12:54:11 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Controllers/Comments.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Comments.php(48): count()
+ 3 APPPATH/Controllers/Comments.php(18): App\Controllers\Comments->compile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Comments->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 12:54:44 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Controllers/Comments.php on line 48.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Comments.php(48): count()
+ 3 APPPATH/Controllers/Comments.php(18): App\Controllers\Comments->compile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Comments->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 12:55:08 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Comments.php on line 52.
+ 1 APPPATH/Controllers/Comments.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Comments.php(18): App\Controllers\Comments->compile()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Comments->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 12:56:05 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Comments.php on line 54.
+ 1 APPPATH/Controllers/Comments.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Comments.php(18): App\Controllers\Comments->compile()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Comments->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 12:56:39 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Comments.php on line 54.
+ 1 APPPATH/Controllers/Comments.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Comments.php(18): App\Controllers\Comments->compile()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Comments->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 12:57:40 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Comments.php on line 53.
+ 1 APPPATH/Controllers/Comments.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Comments.php(18): App\Controllers\Comments->compile()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Comments->index()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 13:03:29 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH/Controllers/Comments.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Comments.php(45): count()
+ 3 APPPATH/Controllers/Comments.php(126): App\Controllers\Comments->compile()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Comments->add_comment()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

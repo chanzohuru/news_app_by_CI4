@@ -38,10 +38,17 @@ $routes->group('api', ['filter' => 'basicAuthFilter'], function($routes)
    $routes->get('users', 'Users::index');
    $routes->get('users/(:num)', 'Users::index/$1');
    $routes->post('users', 'Users::add_user');
+   $routes->put('users', 'Users::edit_user');
    $routes->put('users/(:num)', 'Users::edit_user/$1');
    $routes->delete('users/(:num)', 'Users::delete_user/$1');
 
    $routes->get('posts', 'Posts::index');
+
+   $routes->get('comments', 'Comments::index');
+   $routes->get('comments/(:num)', 'Comments::index/$1');
+   $routes->post('comments', 'Comments::add_comment');
+   $routes->patch('comments', 'Comments::moderate_comment');
+   $routes->patch('comments/(:num)', 'Comments::moderate_comment/$1');
 });
 
 
